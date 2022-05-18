@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul {
+           list-style-type: square; 
+        }
+        .navigation ul {
+            font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+        }
+        .navigation li {
+            display: inline-block;
+        }
+        .navigation a {
+            background: #395870;
+            background: linear-gradient(#49708f, #293f50);
+            border-right: 1px solid rgba(0, 0, 0, .3);
+            color: #fff;
+            padding: 12px 20px;
+            text-decoration: none;
+        }
+        .navigation a:hover {
+            background: #314b60;
+            box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+        }
+        .navigation li:first-child a {
+            border-radius: 4px 0 0 4px;
+        }
+        .navigation li:last-child a {
+            border-right: 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .nav li {
+            display: inline-block;
+            margin: 0 10px;
+            vertical-align: top;
+        }
+        .nav li:last-child {
+            margin-right: 0;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <dl>
+        <dt>
+            Study
+        </dt>
+        <dd>
+            The devotion of time and attention to acquiring knowledge on an academic subject, especially by means of books
+        </dd>
+        <dt>
+            Design
+        </dt>
+        <dd>
+            A plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made
+        </dd>
+        <dd>Purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object</dd>
+        <dt>
+            Business
+        </dt>
+        <dt>
+            Work 
+        </dt>
+        <dd>A person's regular occupation, profession, or trade</dd>
+    </dl>
+    <ol>
+        <li>Walk the dog</li>
+        <li>Fold laundry</li>
+        <li>Go to the grocery and buy:</li>
+            <ul>
+                <li>Milk</li>
+                <li>Bread</li>
+                <li>Cheese</li>
+            </ul>
+        <li>Mow the lawn</li>
+        <li>Make dinner</li>
+    </ol>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Nortifications</a></li>
+            <li><a href="#">Log out</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
